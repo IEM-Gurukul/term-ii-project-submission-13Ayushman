@@ -5,12 +5,12 @@
 
 ---
 
-## Problem Statement (max 150 words)
-###The primary technical challenge of this project is implementing a robust, memory-efficient state management system for a text editor from scratch. While many applications rely on heavy, full-document snapshots for undo operations, this project focuses on implementing the Command Design Pattern to manage granular edit history. This ensures the application remains responsive and memory-efficient by storing only specific delta changes (insertions/deletions), while maintaining a strict MVC separation to prevent logic leakage between the data layer and the Swing interface.
+## Problem Statement
+The primary technical challenge of this project is implementing a robust, memory-efficient state management system for a text editor from scratch. While many applications rely on heavy, full-document snapshots for undo operations, this project focuses on implementing the Command Design Pattern to manage granular edit history. This ensures the application remains responsive and memory-efficient by storing only specific delta changes (insertions/deletions), while maintaining a strict MVC separation to prevent logic leakage between the data layer and the Swing interface.
 ---
 
 ## Target User
-###Engineering students and developers requiring a lightweight, distraction-free environment for local file manipulation and code drafting.
+Engineering students and developers requiring a lightweight, distraction-free environment for local file manipulation and code drafting.
 ---
 
 ## Core Features
@@ -38,7 +38,7 @@
 ---
 
 ## Proposed Architecture Description
-###The project strictly follows the Model-View-Controller (MVC) architecture. The Model manages the text buffer and file persistence; the View handles the Java Swing GUI; and the Controller processes user events. The Singleton Pattern ensures a single point of access for application-wide theme settings, providing a synchronized UI state across all components.
+The project strictly follows the Model-View-Controller (MVC) architecture. The Model manages the text buffer and file persistence; the View handles the Java Swing GUI; and the Controller processes user events. The Singleton Pattern ensures a single point of access for application-wide theme settings, providing a synchronized UI state across all components.
 ---
 
 ## How to Run
