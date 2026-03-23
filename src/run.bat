@@ -1,0 +1,3 @@
+javac CodeFlowEditor.java
+java CodeFlowEditor
+pause
