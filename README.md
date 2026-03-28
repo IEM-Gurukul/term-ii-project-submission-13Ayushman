@@ -43,7 +43,11 @@ The project strictly follows the Model-View-Controller (MVC) architecture. The M
 
 ## How to Run
 
----
+## Run Instructions
 
-## Git Discipline Notes
-Minimum 10 meaningful commits required.
+1. Install Java 11+
+2. Download CodeFlowEditor.jar
+3. Run:
+   java -jar CodeFlowEditor.jar
+
+
