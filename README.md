@@ -46,8 +46,18 @@ The project strictly follows the Model-View-Controller (MVC) architecture. The M
 ## Run Instructions
 
 1. Install Java 11+
-2. Download CodeFlowEditor.jar
-3. Run:
-   java -jar CodeFlowEditor.jar
+2. Download all the necessary files as stored in the src folder.
+3. Download CodeFlowEditor.java
+4. Run:
+   java -jar CodeFlowEditor.java
+
+## Version:
+Version 1.2 was released.
+
+##Author:
+Name: Ayushman Saha
+Dept : IT
+Roll : 72
+Enrollment no. : 12024052004069
 
 
